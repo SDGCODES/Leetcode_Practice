@@ -20,4 +20,8 @@ My daily leetcode practice records.
 |  |
 | ------- |
 | [0038-count-and-say](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0038-count-and-say) |
+## Database
+|  |
+| ------- |
+| [1827-invalid-tweets](https://github.com/SDGCODES/Leetcode_Practice/tree/master/1827-invalid-tweets) |
 <!---LeetCode Topics End-->
