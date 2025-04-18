@@ -16,4 +16,8 @@ My daily leetcode practice records.
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0001-two-sum) |
+## String
+|  |
+| ------- |
+| [0038-count-and-say](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0038-count-and-say) |
 <!---LeetCode Topics End-->
