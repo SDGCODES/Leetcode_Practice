@@ -9,11 +9,13 @@ My daily leetcode practice records.
 | [0001-two-sum](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0027-remove-element) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/SDGCODES/Leetcode_Practice/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Two Pointers
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0027-remove-element) |
+| [2699-count-the-number-of-fair-pairs](https://github.com/SDGCODES/Leetcode_Practice/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Hash Table
 |  |
 | ------- |
@@ -26,4 +28,12 @@ My daily leetcode practice records.
 |  |
 | ------- |
 | [1827-invalid-tweets](https://github.com/SDGCODES/Leetcode_Practice/tree/master/1827-invalid-tweets) |
+## Binary Search
+|  |
+| ------- |
+| [2699-count-the-number-of-fair-pairs](https://github.com/SDGCODES/Leetcode_Practice/tree/master/2699-count-the-number-of-fair-pairs) |
+## Sorting
+|  |
+| ------- |
+| [2699-count-the-number-of-fair-pairs](https://github.com/SDGCODES/Leetcode_Practice/tree/master/2699-count-the-number-of-fair-pairs) |
 <!---LeetCode Topics End-->
