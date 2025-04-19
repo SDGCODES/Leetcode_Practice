@@ -1,34 +1,43 @@
 class Solution {
-    public long countFairPairs(int[] nums, int lower, int upper) {
-        long ans = 0;
+
+    long lower_bound(int[] nums, int low, int high, int element) {
+        while (low <= high) {
+            int mid = low + ((high - low) / 2);
+            if (nums[mid] >= element) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+        return low;
+    }
+
+    long countFairPairs(int[] nums, int lower, int upper) {
         Arrays.sort(nums);
-        for (int i = 0; i + 1 < nums.length; i++) {
-            int minReq = lower - nums[i];
-            int maxReq = upper - nums[i];
-            int low = lowerBound(nums, i + 1, nums.length, minReq);
-            int high = upperBound(nums, i + 1, nums.length, maxReq);
-            ans += (high - low);
+        long ans = 0;
+        for (int i = 0; i < nums.length; i++) {
+            // Assume we have picked nums[i] as the first pair element.
+
+            // `low` indicates the number of possible pairs with sum < lower.
+            long low = lower_bound(
+                nums,
+                i + 1,
+                nums.length - 1,
+                lower - nums[i]
+            );
+
+            // `high` indicates the number of possible pairs with sum <= upper.
+            long high = lower_bound(
+                nums,
+                i + 1,
+                nums.length - 1,
+                upper - nums[i] + 1
+            );
+
+            // Their difference gives the number of elements with sum in the
+            // given range.
+            ans += 1 * (high - low);
         }
         return ans;
-    }
-
-    private int lowerBound(int[] nums, int start, int end, int target) {
-        int lo = start, hi = end;
-        while (lo < hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (nums[mid] < target) lo = mid + 1;
-            else hi = mid;
-        }
-        return lo;
-    }
-
-    private int upperBound(int[] nums, int start, int end, int target) {
-        int lo = start, hi = end;
-        while (lo < hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (nums[mid] <= target) lo = mid + 1;
-            else hi = mid;
-        }
-        return lo;
     }
 }
