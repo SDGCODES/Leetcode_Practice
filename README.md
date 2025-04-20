@@ -29,6 +29,7 @@ My daily leetcode practice records.
 ## Database
 |  |
 | ------- |
+| [1462-list-the-products-ordered-in-a-period](https://github.com/SDGCODES/Leetcode_Practice/tree/master/1462-list-the-products-ordered-in-a-period) |
 | [1827-invalid-tweets](https://github.com/SDGCODES/Leetcode_Practice/tree/master/1827-invalid-tweets) |
 ## Binary Search
 |  |
