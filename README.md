@@ -9,6 +9,7 @@ My daily leetcode practice records.
 | [0001-two-sum](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0027-remove-element) |
+| [0088-merge-sorted-array](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0088-merge-sorted-array) |
 | [0797-rabbits-in-forest](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0797-rabbits-in-forest) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/SDGCODES/Leetcode_Practice/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Two Pointers
@@ -16,6 +17,7 @@ My daily leetcode practice records.
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0027-remove-element) |
+| [0088-merge-sorted-array](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0088-merge-sorted-array) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/SDGCODES/Leetcode_Practice/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Hash Table
 |  |
@@ -38,6 +40,7 @@ My daily leetcode practice records.
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/SDGCODES/Leetcode_Practice/tree/master/0088-merge-sorted-array) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/SDGCODES/Leetcode_Practice/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Math
 |  |
